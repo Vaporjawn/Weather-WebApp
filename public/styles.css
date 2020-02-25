@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(to right, rgb(255, 167, 35), rgb(255, 97, 35));
+  background: linear-gradient(to right, rgb(255, 167, 35), rgb(255, 45, 255));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,8 +32,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  border-top-left-radius: 5px; 
-  border-top-right-radius: 5px; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 
@@ -124,12 +124,4 @@ body {
 .pac-item-query {
   font-size: 2rem;
   padding-right: 14px;
-}
-
-.darksky-logo {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  color: #333;
-  font-size: 1.5rem;
 }
